@@ -4,7 +4,7 @@ Implementation of Zhang's camera calibration method from scratch to estimate the
 
 ## Data
 
-In order to estimate camera intrinsic parameters, the Zhang's method uses a checkerboard. The file `checkerboard.pdf` contains the calibration target that was utilized. The `Calib_Img` folder contains 13 photos, which will be utilized for calibration.
+In order to estimate camera intrinsic parameters, the Zhang's method uses a checkerboard. The file `calib_checkerboard.pdf` contains the calibration target that was utilized. The `calib_Imgs` folder contains 13 photos, which will be utilized for calibration.
 
 ### Reprojected corners
 
