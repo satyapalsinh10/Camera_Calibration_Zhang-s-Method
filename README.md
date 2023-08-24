@@ -1,50 +1,47 @@
-# Camera Calibration by implementation Zhang's method 
+# Camera Calibration -- [Implementating Zhang's method]
+
 Implementation of Zhang's camera calibration method from scratch to estimate the camera intrinsics and distortion parameters.
 
-
 ## Data
-In order to estimate camera intrinsic parameters, the Zhang's method uses a checkerboard. The file checkerboard.pdf contains the calibration target that was utilized. The 'Calib_Img' folder contains 13 photos, which will be utilized for calibration.
 
-
+In order to estimate camera intrinsic parameters, the Zhang's method uses a checkerboard. The file `checkerboard.pdf` contains the calibration target that was utilized. The `Calib_Img` folder contains 13 photos, which will be utilized for calibration.
 
 ### Reprojected corners
 
-<img src="Results/Reprojected_corners/reprojected_corners1.png"  align="center" alt="Undistorted" length = "200" width="300"/>
+<p align="center">
+  <img src="Results/Reprojected_corners/reprojected_corners1.png" width="400" />
+</p>
 
 ## Results
-                   
-```
-Distortion Coefficients:
-
-[0.0125  -0.0125]
-
-```
-
-<div style="margin: 20px 0"></div>
-
-```
-Intrinsic matrix:                   
-
-[[2464.4 0.3680 0763.8],             
- [  0    2441.1 1348.3],
- [  0      0       1  ]]
-```
 
 
-## Usage Guidelines:
+**Camera Distortion Coefficients:**
 
-Open the 'AutoCalib' directory on terminal and enter the commmand:
+[0.0125, -0.0125]
+
+
+
+**Camera Intrinsic matrix:**
 
 ```
-python3 Wrapper.py
+[[2464.4, 0.3680,  0763.8],
+[0,       2441.1,  1348.3], 
+[0,            0,       1]]
 ```
 
-Corners on original images and Reprojected images are stored in Results folder.
+## Usage
 
-Please refer the report for details of the method followed and corresponding results.
+To execute the code enter the below line:
 
+```bash
+file_location/main.py
+```
+
+The final Output is stored in Results folder.
 
 ## References
 
 1. https://rbe549.github.io/fall2022/hw/hw1/
 2. https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr98-71.pdf
+
+
