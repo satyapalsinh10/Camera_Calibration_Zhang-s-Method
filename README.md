@@ -1,23 +1,33 @@
-# Zhang's Camera Calibration method implementation
+# Camera Calibration by implementation Zhang's method 
 Implementation of Zhang's camera calibration method from scratch to estimate the camera intrinsics and distortion parameters.
 
 
 ## Data
-The Zhang’s paper relies on a calibration target (checkerboard in our case) to estimate camera intrinsic parameters. The calibration target used can be found in the file checkerboardPattern.pdf. This was printed on an A4 paper and the size of each square was 21.5mm. Thirteen images taken from a Google Pixel XL phone with focus locked can be accessed from 'CalibrationImgs' folder which we will use to calibrate.
+In order to estimate camera intrinsic parameters, the Zhang's method uses a checkerboard. The file checkerboard.pdf contains the calibration target that was utilized. The 'Calib_Img' folder contains 13 photos, which will be utilized for calibration.
 
-## Results
-                   
-```
-Intrinsic matrix :                   Distortion Coefficients:
 
-[[2464.4 0.3680 0763.8],              [0.0125  -0.0125]
- [  0    2441.1 1348.3],
- [  0      0       1  ]]
-```
 
 ### Reprojected corners
 
 <img src="Results/Reprojected_corners/reprojected_corners1.png"  align="center" alt="Undistorted" length = "200" width="300"/>
+
+## Results
+                   
+```
+              Distortion Coefficients:
+
+              [0.0125  -0.0125]
+
+
+```
+
+```
+Intrinsic matrix:                   
+
+[[2464.4 0.3680 0763.8],             
+ [  0    2441.1 1348.3],
+ [  0      0       1  ]]
+```
 
 
 ## Usage Guidelines:
