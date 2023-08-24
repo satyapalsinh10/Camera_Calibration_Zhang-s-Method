@@ -9,7 +9,7 @@ In order to estimate camera intrinsic parameters, the Zhang's method uses a chec
 ### Reprojected corners
 
 <p align="center">
-  <img src="Results/Reprojected_corners/reprojected_corners1.png" width="400" />
+  <img src="Results_01/Reprojected_corners/reproj_corners_01.png" width="400" />
 </p>
 
 ## Results
