@@ -14,12 +14,13 @@ In order to estimate camera intrinsic parameters, the Zhang's method uses a chec
 ## Results
                    
 ```
-              Distortion Coefficients:
+Distortion Coefficients:
 
-              [0.0125  -0.0125]
-
+[0.0125  -0.0125]
 
 ```
+
+<div style="margin: 20px 0"></div>
 
 ```
 Intrinsic matrix:                   
