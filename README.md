@@ -37,7 +37,7 @@ To execute the code enter the below line:
 file_location/main.py
 ```
 
-The final Output is stored in Results folder.
+The final Output is stored in Results_01 folder.
 
 ## References
 
